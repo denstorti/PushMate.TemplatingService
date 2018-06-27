@@ -1,4 +1,5 @@
 # PushMate Templating Service
+[![Build status](https://ci.appveyor.com/api/projects/status/b5olcptd8j5uw784/branch/master?svg=true)](https://ci.appveyor.com/project/denstorti/pushmate-templatingservice/branch/master)
 
 Native C# library for templating. 
 
