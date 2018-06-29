@@ -14,8 +14,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 install:
-- ps: dotnet restore
+- ps: dotnet restore PushMate.TemplatingService
 build_script:
-- ps: dotnet build
+- ps: dotnet build PushMate.TemplatingService
 test_script:
 - ps: dotnet test PushMate.TemplatingService.Test --no-build
