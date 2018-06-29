@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pushmate.templatingservice.api:
+    image: ${DOCKER_REGISTRY}pushmatetemplatingserviceapi
+    build:
+      context: .
+      dockerfile: PushMate.TemplatingService.API/Dockerfile

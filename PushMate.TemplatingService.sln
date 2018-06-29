@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PushMate.TemplatingService.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PushMate.TemplatingService.API.Test", "PushMate.TemplatingService.API.Test\PushMate.TemplatingService.API.Test.csproj", "{FC8A5F32-7D1A-4748-9CAA-1199C25BA5C9}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{05853DCC-C7E3-4D0E-9A3A-B7A316C676CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{FC8A5F32-7D1A-4748-9CAA-1199C25BA5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8A5F32-7D1A-4748-9CAA-1199C25BA5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8A5F32-7D1A-4748-9CAA-1199C25BA5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05853DCC-C7E3-4D0E-9A3A-B7A316C676CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05853DCC-C7E3-4D0E-9A3A-B7A316C676CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05853DCC-C7E3-4D0E-9A3A-B7A316C676CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05853DCC-C7E3-4D0E-9A3A-B7A316C676CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
