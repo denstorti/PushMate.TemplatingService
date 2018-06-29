@@ -16,6 +16,6 @@ dotnet_csproj:
 install:
 - ps: dotnet restore PushMate.TemplatingService
 build_script:
-- ps: dotnet build PushMate.TemplatingService
+- ps: dotnet build PushMate.TemplatingService.sln
 test_script:
 - ps: dotnet test PushMate.TemplatingService.Test --no-build
